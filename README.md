@@ -19,4 +19,4 @@ Parameters:
 
 ## Configuration
 
-To understand how to configure Flexget, I recomment their [documentation](https://flexget.com/Configuration).
+To understand how to configure Flexget, I recommend their [documentation](https://flexget.com/Configuration).
