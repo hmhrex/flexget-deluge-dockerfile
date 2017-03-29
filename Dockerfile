@@ -24,8 +24,6 @@ RUN \
         flexget
 
 VOLUME ["/flexget"]
-VOLUME ["/input"]
-VOLUME ["/output"]
 
 WORKDIR /flexget
 
