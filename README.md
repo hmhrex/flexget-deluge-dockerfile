@@ -8,14 +8,14 @@ In order to use [Deluge](http://deluge-torrent.org/) with [Flexget](https://flex
 docker create \
   --name flexget \
   --net=host \
-  -v </path/to/your/configuration/files>:/config \
+  -v </path/to/your/configuration/files>:/flexget \
   hmhrex/flexget-deluge
 ```
   
 Parameters:
 
 - --net=host - Shares host networking with container, required.
-- -v /config - deluge configs
+- -v /flexget - Deluge configuration files directory
 
 ## Configuration
 
